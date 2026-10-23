@@ -127,7 +127,7 @@ Progress across tools, learning chunks, source materials, and final deliverables
 | 09 | **Nginx** | II. Infrastructure | 2 | 2 | Complete (Chunks 1 & 2 verified) | Complete (`BEH_NGINX_COMPLETE_HANDBOOK.pdf`) |
 | 10 | **Prometheus** | III. Observability | 2 | 2 | Complete (Chunks 1 & 2 verified) | Complete (`BEH_PROMETHEUS_COMPLETE_HANDBOOK.pdf`) |
 | 11 | **Grafana** | III. Observability | 1 | 1 | Complete (Chunk 1 verified) | Complete (`BEH_GRAFANA_COMPLETE_HANDBOOK.pdf`) |
-| 12 | **Kubernetes** | IV. Orchestration/IaC | 3 | 0 | Not started | Not generated |
+| 12 | **Kubernetes** | IV. Orchestration/IaC | 3 | 3 | Complete (Chunks 1–3 verified) | Complete (`BEH_KUBERNETES_COMPLETE_HANDBOOK.pdf`) |
 | 13 | **Terraform** | IV. Orchestration/IaC | 3 | 0 | Not started | Not generated |
 
 ### Integration Capstone Progress
