@@ -117,7 +117,7 @@ Progress across tools, learning chunks, source materials, and final deliverables
 | # | Tool | Phase | Planned Chunks | Completed Chunks | Source Content Status | Final PDF Status |
 |:---:|:---|:---|:---:|:---:|:---|:---|
 | 01 | **Git** | I. Dev Foundations | 2 | 2 | Complete (Chunks 1 & 2 verified) | Complete (`BEH_GIT_COMPLETE_HANDBOOK.pdf`) |
-| 02 | **Linux** | I. Dev Foundations | 6 | 0 | Not started | Not generated |
+| 02 | **Linux** | I. Dev Foundations | 6 | 6 | Complete (Chunks 1–6 verified) | Complete (`BEH_LINUX_COMPLETE_HANDBOOK.pdf`) |
 | 03 | **Maven** | I. Dev Foundations | 1 | 0 | Not started | Not generated |
 | 04 | **Postman** | I. Dev Foundations | 1 | 0 | Not started | Not generated |
 | 05 | **JUnit 5** | I. Dev Foundations | 2 | 0 | Not started | Not generated |
@@ -281,4 +281,5 @@ To ensure a clean, human-readable repository history, commits are **not** create
 - **Current Repository State**: Initialized on branch `main`, remote `origin` configured to `https://github.com/aafaqahmed35/ToolKit.git`.
 - **Completed**:
   - **Tool 01 (Git)**: Chunks 1 & 2 fully ingested, verified, and compiled into `docs/git/BEH_GIT_COMPLETE_HANDBOOK.pdf` (46 pages).
-- **Immediate Next Step**: Ingest **Linux Chunk 1 of 6** (`content/linux/01-terminal-filesystem-mastery.md`).
+  - **Tool 02 (Linux)**: Chunks 1–4 ingested (`content/linux/01-terminal-filesystem-mastery.md`, `content/linux/02-processes-signals-resource-management.md`, `content/linux/03-networking-connectivity-debugging.md`, `content/linux/04-logs-permissions-system-troubleshooting.md`).
+- **Immediate Next Step**: Ingest **Linux Chunk 5 of 6** (`content/linux/05-shell-scripting-automation.md`).
