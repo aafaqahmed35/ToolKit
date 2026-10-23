@@ -123,7 +123,7 @@ Progress across tools, learning chunks, source materials, and final deliverables
 | 05 | **JUnit 5** | I. Dev Foundations | 2 | 2 | Complete (Chunks 1 & 2 verified) | Complete (`BEH_JUNIT5_COMPLETE_HANDBOOK.pdf`) |
 | 06 | **Docker** | II. Infrastructure | 3 | 3 | Complete (Chunks 1–3 verified) | Complete (`BEH_DOCKER_COMPLETE_HANDBOOK.pdf`) |
 | 07 | **Redis** | II. Infrastructure | 3 | 3 | Complete (Chunks 1–3 verified) | Complete (`BEH_REDIS_COMPLETE_HANDBOOK.pdf`) |
-| 08 | **Kafka** | II. Infrastructure | 3 | 0 | Not started | Not generated |
+| 08 | **Kafka** | II. Infrastructure | 3 | 3 | Complete (Chunks 1–3 verified) | Complete (`BEH_KAFKA_COMPLETE_HANDBOOK.pdf`) |
 | 09 | **Nginx** | II. Infrastructure | 2 | 0 | Not started | Not generated |
 | 10 | **Prometheus** | III. Observability | 2 | 0 | Not started | Not generated |
 | 11 | **Grafana** | III. Observability | 1 | 0 | Not started | Not generated |
