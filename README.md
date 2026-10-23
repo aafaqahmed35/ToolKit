@@ -6,7 +6,7 @@ Master Context, Repository Architecture, and Production Protocol for the Backend
 
 ## 1. Project Overview & Identity
 
-**ToolKit** is an authoritative, interview-oriented, and production-tested educational handbook repository covering **13 essential tools** across the entire backend engineering, infrastructure, observability, and delivery lifecycle.
+**ToolKit** is an authoritative, interview-oriented, and production-tested educational handbook repository covering **14 essential tools** across the entire backend engineering, infrastructure, observability, cloud platforms, and delivery lifecycle.
 
 ### Target Audience
 - Aspiring backend engineers, software developers, and systems engineers.
@@ -25,9 +25,9 @@ This curriculum is explicitly designed **not** to be an abstract command encyclo
 
 ---
 
-## 2. The 13-Tool Curriculum Roadmap (32 Planned Chunks)
+## 2. The 14-Tool Curriculum Roadmap (38 Planned Chunks)
 
-The curriculum is strictly sequenced into four sequential phases, covering 13 individual tools across **32 planned content chunks**:
+The curriculum is strictly sequenced into four sequential phases, covering 14 individual tools across **38 planned content chunks**:
 
 ```
 ToolKit Curriculum
@@ -48,9 +48,10 @@ ToolKit Curriculum
 │   ├── 10. Prometheus (2 chunks)
 │   └── 11. Grafana (1 chunk)
 │
-└── Phase IV: Orchestration & Infrastructure as Code (6 chunks)
+└── Phase IV: Orchestration & Cloud Infrastructure (12 chunks)
     ├── 12. Kubernetes (3 chunks)
-    └── 13. Terraform (3 chunks)
+    ├── 13. Terraform (3 chunks)
+    └── 14. AWS (6 chunks)
 ```
 
 ### Detailed Breakdown by Phase and Chunk
@@ -58,38 +59,38 @@ ToolKit Curriculum
 #### Phase I — Developer Foundations
 1. **Git** (2 Chunks)
    - *Chunk 1*: Fundamentals, Object Model & Essential Workflows
-   - *Chunk 2*: Collaboration, Branching Strategies, Recovery, Advanced Workflows & Interview Scenarios
+   - *Chunk 2*: Advanced Branching, History Manipulation, Team Workflows & Production Discipline
 2. **Linux** (6 Chunks)
-   - *Chunk 1*: Terminal & Filesystem Mastery
-   - *Chunk 2*: Processes, Signals & Resource Management
-   - *Chunk 3*: Networking & Connectivity Debugging
-   - *Chunk 4*: Logs, Permissions & System Troubleshooting
-   - *Chunk 5*: Shell Scripting & Automation
-   - *Chunk 6*: Production Incident Simulation
+   - *Chunk 1*: Terminal, Filesystem Mastery & Shell Navigation
+   - *Chunk 2*: Processes, Signals, Job Control & Resource Management
+   - *Chunk 3*: Networking, Sockets, Connectivity & Port Debugging
+   - *Chunk 4*: Logs, Permissions, Users & System Troubleshooting
+   - *Chunk 5*: Shell Scripting, Automation & Cron Jobs
+   - *Chunk 6*: Production Incident Simulation & Triage Runbooks
 3. **Maven** (1 Chunk)
-   - *Chunk 1*: Build Lifecycle, Plugins, Dependencies & Java Project Management
+   - *Chunk 1*: Fundamentals, Lifecycles, Multi-Module Builds & Dependency Management
 4. **Postman** (1 Chunk)
-   - *Chunk 1*: API Testing, Collections, Environments, Scripting & Automation
+   - *Chunk 1*: API Testing, Environments, Automation & Mock Servers
 5. **JUnit 5** (2 Chunks)
-   - *Chunk 1*: Unit Testing Fundamentals, Assertions & Test Design
-   - *Chunk 2*: Advanced Testing, Mocking Boundaries, Integration Tests & Interview Scenarios
+   - *Chunk 1*: Modern Testing Foundations, Assertions, Assumptions & Test Lifecycle
+   - *Chunk 2*: Parameterized Tests, Dynamic Tests, Mockito Integration & Best Practices
 
 #### Phase II — Backend Infrastructure
 6. **Docker** (3 Chunks)
-   - *Chunk 1*: Containers, Images, Runtime Architecture & Docker Fundamentals
-   - *Chunk 2*: Dockerfiles, Networking, Volumes & Multi-Container Docker Compose
-   - *Chunk 3*: Production Containers, Security, Debugging & Deployment Workflows
+   - *Chunk 1*: Container Fundamentals, Architecture & Essential Commands
+   - *Chunk 2*: Image Construction, Multi-Stage Builds & Optimization
+   - *Chunk 3*: Multi-Container Networking, Compose & Production Hardening
 7. **Redis** (3 Chunks)
-   - *Chunk 1*: In-Memory Data Structures & Backend Caching Fundamentals
-   - *Chunk 2*: Cache Strategies, Expiration (TTLs), Invalidation & Failure Handling
-   - *Chunk 3*: Performance Tuning, Persistence (RDB/AOF), Concurrency & Production Scenarios
+   - *Chunk 1*: In-Memory Data Structures, Architecture & Key Commands
+   - *Chunk 2*: Caching Strategies, Eviction Policies, TTL & Persistence
+   - *Chunk 3*: Distributed Locking, Transactions, Replication, Clustering & Sentinel
 8. **Kafka** (3 Chunks)
-   - *Chunk 1*: Architecture, Topics, Partitions, Brokers, Producers & Consumers
-   - *Chunk 2*: Consumer Groups, Rebalances, Delivery Semantics, Retries & Idempotency
-   - *Chunk 3*: Reliability, Ordering Guarantees, Performance & Production Troubleshooting
+   - *Chunk 1*: Event Streaming Architecture, Topics, Partitions & Brokers
+   - *Chunk 2*: Producers, Consumers, Consumer Groups, Offsets & Delivery Semantics
+   - *Chunk 3*: Performance Tuning, Replication, Retention & Production Operations
 9. **Nginx** (2 Chunks)
-   - *Chunk 1*: Reverse Proxying, Upstream Blocks, HTTP Routing & Load Balancing
-   - *Chunk 2*: TLS Termination, Upstream Failures, Timeouts (502/504) & Production Debugging
+   - *Chunk 1*: Architecture, Directives, Reverse Proxying & Load Balancing
+   - *Chunk 2*: TLS/SSL Termination, Caching, Rate Limiting & Hardening
 
 #### Phase III — Production Observability
 10. **Prometheus** (2 Chunks)
@@ -98,7 +99,7 @@ ToolKit Curriculum
 11. **Grafana** (1 Chunk)
     - *Chunk 1*: Dashboards, Query Visualizations, Threshold Alerts & Operational Observability
 
-#### Phase IV — Orchestration & Infrastructure as Code
+#### Phase IV — Orchestration & Cloud Infrastructure
 12. **Kubernetes** (3 Chunks)
     - *Chunk 1*: Core Objects, Pods, Deployments, ReplicaSets & Services
     - *Chunk 2*: Configuration (ConfigMaps/Secrets), Ingress, Storage & App Deployment
@@ -107,6 +108,13 @@ ToolKit Curriculum
     - *Chunk 1*: Infrastructure as Code Fundamentals, HCL & Providers
     - *Chunk 2*: State Management, Backends, Dependencies & Reusable Modules
     - *Chunk 3*: Production Workflows, Drift Detection, CI/CD Integration & Interview Scenarios
+14. **AWS (Amazon Web Services)** (6 Chunks)
+    - *Chunk 1*: Cloud Foundations, IAM & Backend Architecture
+    - *Chunk 2*: VPC, Subnets, Routing, Internet Gateways & Security Groups
+    - *Chunk 3*: EC2, Application Load Balancers, Auto Scaling & Compute Architecture
+    - *Chunk 4*: Storage (S3, EBS, EFS), Managed Databases (RDS PostgreSQL), Backups & High Availability
+    - *Chunk 5*: Containers (ECS/Fargate), Serverless (Lambda), Messaging (SQS/SNS/EventBridge) & Event-Driven Architecture
+    - *Chunk 6*: Production Security, Observability (CloudWatch), CI/CD, Reliability, Cost Engineering & Final Architecture Capstone
 
 ---
 
@@ -127,12 +135,13 @@ Progress across tools, learning chunks, source materials, and final deliverables
 | 09 | **Nginx** | II. Infrastructure | 2 | 2 | Complete (Chunks 1 & 2 verified) | Complete (`BEH_NGINX_COMPLETE_HANDBOOK.pdf`) |
 | 10 | **Prometheus** | III. Observability | 2 | 2 | Complete (Chunks 1 & 2 verified) | Complete (`BEH_PROMETHEUS_COMPLETE_HANDBOOK.pdf`) |
 | 11 | **Grafana** | III. Observability | 1 | 1 | Complete (Chunk 1 verified) | Complete (`BEH_GRAFANA_COMPLETE_HANDBOOK.pdf`) |
-| 12 | **Kubernetes** | IV. Orchestration/IaC | 3 | 3 | Complete (Chunks 1–3 verified) | Complete (`BEH_KUBERNETES_COMPLETE_HANDBOOK.pdf`) |
-| 13 | **Terraform** | IV. Orchestration/IaC | 3 | 3 | Complete (Chunks 1–3 verified) | Complete (`BEH_TERRAFORM_COMPLETE_HANDBOOK.pdf`) |
+| 12 | **Kubernetes** | IV. Orchestration/Cloud | 3 | 3 | Complete (Chunks 1–3 verified) | Complete (`BEH_KUBERNETES_COMPLETE_HANDBOOK.pdf`) |
+| 13 | **Terraform** | IV. Orchestration/Cloud | 3 | 3 | Complete (Chunks 1–3 verified) | Complete (`BEH_TERRAFORM_COMPLETE_HANDBOOK.pdf`) |
+| 14 | **AWS** | IV. Orchestration/Cloud | 6 | 6 | Complete (Chunks 1–6 verified) | Complete (`BEH_AWS_COMPLETE_HANDBOOK.pdf`) |
 
 ### Integration Capstone Progress
 - **End-to-End Integration Lesson**: *From Code to Production: An End-to-End Backend Engineering Workflow*
-- **Status**: Scheduled to begin immediately after Tool 13 (Terraform) is completed and verified.
+- **Status**: Scheduled to begin immediately after Tool 14 (AWS) is completed and verified.
 - **Deliverable**: Embedded within the Master Handbook.
 
 ---
@@ -159,7 +168,8 @@ ToolKit/
 │   ├── prometheus/
 │   ├── grafana/
 │   ├── kubernetes/
-│   └── terraform/
+│   ├── terraform/
+│   └── aws/
 │
 ├── docs/                        # Complete compiled tool handbooks (PDF deliverables only)
 │   ├── git/                     # BEH_GIT_COMPLETE_HANDBOOK.pdf
@@ -174,7 +184,8 @@ ToolKit/
 │   ├── prometheus/              # BEH_PROMETHEUS_COMPLETE_HANDBOOK.pdf
 │   ├── grafana/                 # BEH_GRAFANA_COMPLETE_HANDBOOK.pdf
 │   ├── kubernetes/              # BEH_KUBERNETES_COMPLETE_HANDBOOK.pdf
-│   └── terraform/               # BEH_TERRAFORM_COMPLETE_HANDBOOK.pdf
+│   ├── terraform/               # BEH_TERRAFORM_COMPLETE_HANDBOOK.pdf
+│   └── aws/                     # BEH_AWS_COMPLETE_HANDBOOK.pdf
 │
 ├── integration/                 # End-to-end integration lesson source material
 │   └── README.md                # Integration capstone specification
@@ -183,18 +194,18 @@ ToolKit/
 ```
 
 ### Directory Responsibilities
-- `content/<tool>/`: Contains individual Markdown source files for each chunk (e.g., `content/git/01-git-fundamentals.md`). Source files preserve 100% of the educational content without summaries or omissions.
+- `content/<tool>/`: Contains individual Markdown source files for each chunk (e.g., `content/aws/01-aws-cloud-foundations-iam-backend-architecture.md`). Source files preserve 100% of the educational content without summaries or omissions.
 - `docs/<tool>/`: Houses the single, final, verified PDF for each completed tool. **Chunk-level PDFs are never generated or stored here.**
 - `integration/`: Houses the source material for the final end-to-end integration lesson.
 - `scripts/`: Holds verification and PDF build utilities as required.
 
 ---
 
-## 5. Strict Deliverable Policy: Exactly 14 Final PDFs
+## 5. Strict Deliverable Policy: Exactly 15 Final PDFs
 
-The project produces **exactly 14 PDF deliverables**—no more, no less.
+The project produces **exactly 15 PDF deliverables**—no more, no less.
 
-### A. Thirteen Individual Tool Handbooks (1 PDF per tool)
+### A. Fourteen Individual Tool Handbooks (1 PDF per tool)
 Generated only after **all** chunks for that tool have been completed and verified:
 1. `docs/git/BEH_GIT_COMPLETE_HANDBOOK.pdf`
 2. `docs/linux/BEH_LINUX_COMPLETE_HANDBOOK.pdf`
@@ -209,9 +220,10 @@ Generated only after **all** chunks for that tool have been completed and verifi
 11. `docs/grafana/BEH_GRAFANA_COMPLETE_HANDBOOK.pdf`
 12. `docs/kubernetes/BEH_KUBERNETES_COMPLETE_HANDBOOK.pdf`
 13. `docs/terraform/BEH_TERRAFORM_COMPLETE_HANDBOOK.pdf`
+14. `docs/aws/BEH_AWS_COMPLETE_HANDBOOK.pdf`
 
 ### B. One Comprehensive Master Handbook
-Compiled after all 13 tool handbooks and the integration lesson are complete:
+Compiled after all 14 tool handbooks and the integration lesson are complete:
 - **Filename**: `BEH_MASTER_BACKEND_ENGINEERING_HANDBOOK.pdf`
 - **Contents**:
   1. Professional Cover Page & Publication Details
@@ -230,8 +242,9 @@ Compiled after all 13 tool handbooks and the integration lesson are complete:
   14. Complete Grafana Handbook (full source content)
   15. Complete Kubernetes Handbook (full source content)
   16. Complete Terraform Handbook (full source content)
-  17. Capstone: *From Code to Production: An End-to-End Backend Engineering Workflow*
-  18. Final Backend Engineering Readiness Checklist
+  17. Complete AWS Handbook (full source content)
+  18. Capstone: *From Code to Production: An End-to-End Backend Engineering Workflow*
+  19. Final Backend Engineering Readiness Checklist
 
 ### Non-Negotiable PDF Generation Rules
 - **No Chunk-Level PDFs**: Individual chunks are saved as Markdown only.
@@ -272,14 +285,27 @@ To ensure a clean, human-readable repository history, commits are **not** create
 | Tool 11 Complete (All chunks + PDF verified) | `Grafana done` |
 | Tool 12 Complete (All chunks + PDF verified) | `Kubernetes done` |
 | Tool 13 Complete (All chunks + PDF verified) | `Terraform done` |
+| Tool 14 Complete (All chunks + PDF verified) | `AWS done` |
 | Integration Lesson + Master Handbook PDF | `Master handbook done` |
 
 ---
 
 ## 8. Current Status & Next Actions
 
-- **Current Repository State**: Initialized on branch `main`, remote `origin` configured to `https://github.com/aafaqahmed35/ToolKit.git`.
-- **Completed**:
-  - **Tool 01 (Git)**: Chunks 1 & 2 fully ingested, verified, and compiled into `docs/git/BEH_GIT_COMPLETE_HANDBOOK.pdf` (46 pages).
-  - **Tool 02 (Linux)**: Chunks 1–4 ingested (`content/linux/01-terminal-filesystem-mastery.md`, `content/linux/02-processes-signals-resource-management.md`, `content/linux/03-networking-connectivity-debugging.md`, `content/linux/04-logs-permissions-system-troubleshooting.md`).
-- **Immediate Next Step**: Ingest **Linux Chunk 5 of 6** (`content/linux/05-shell-scripting-automation.md`).
+- **Current Repository State**: All 14 individual tool handbooks across Phase I–IV are 100% completed, compiled, and verified on branch `main`.
+- **Completed Tools (14/14 — 100% Complete)**:
+  - **Tool 01 (Git)**: Chunks 1–2 complete → `docs/git/BEH_GIT_COMPLETE_HANDBOOK.pdf` (46 pages).
+  - **Tool 02 (Linux)**: Chunks 1–6 complete → `docs/linux/BEH_LINUX_COMPLETE_HANDBOOK.pdf` (114 pages).
+  - **Tool 03 (Maven)**: Chunk 1 complete → `docs/maven/BEH_MAVEN_COMPLETE_HANDBOOK.pdf` (19 pages).
+  - **Tool 04 (Postman)**: Chunk 1 complete → `docs/postman/BEH_POSTMAN_COMPLETE_HANDBOOK.pdf` (17 pages).
+  - **Tool 05 (JUnit 5)**: Chunks 1–2 complete → `docs/junit5/BEH_JUNIT5_COMPLETE_HANDBOOK.pdf` (33 pages).
+  - **Tool 06 (Docker)**: Chunks 1–3 complete → `docs/docker/BEH_DOCKER_COMPLETE_HANDBOOK.pdf` (40 pages).
+  - **Tool 07 (Redis)**: Chunks 1–3 complete → `docs/redis/BEH_REDIS_COMPLETE_HANDBOOK.pdf` (60 pages).
+  - **Tool 08 (Kafka)**: Chunks 1–3 complete → `docs/kafka/BEH_KAFKA_COMPLETE_HANDBOOK.pdf` (57 pages).
+  - **Tool 09 (Nginx)**: Chunks 1–2 complete → `docs/nginx/BEH_NGINX_COMPLETE_HANDBOOK.pdf` (39 pages).
+  - **Tool 10 (Prometheus)**: Chunks 1–2 complete → `docs/prometheus/BEH_PROMETHEUS_COMPLETE_HANDBOOK.pdf` (37 pages).
+  - **Tool 11 (Grafana)**: Chunk 1 complete → `docs/grafana/BEH_GRAFANA_COMPLETE_HANDBOOK.pdf` (15 pages).
+  - **Tool 12 (Kubernetes)**: Chunks 1–3 complete → `docs/kubernetes/BEH_KUBERNETES_COMPLETE_HANDBOOK.pdf` (56 pages).
+  - **Tool 13 (Terraform)**: Chunks 1–3 complete → `docs/terraform/BEH_TERRAFORM_COMPLETE_HANDBOOK.pdf` (53 pages).
+  - **Tool 14 (AWS)**: Chunks 1–6 complete → `docs/aws/BEH_AWS_COMPLETE_HANDBOOK.pdf` (130 pages).
+- **Immediate Next Step**: Ingest and compile the final Master Integration Capstone (*From Code to Production: An End-to-End Backend Engineering Workflow*) and generate the master deliverable: `BEH_MASTER_BACKEND_ENGINEERING_HANDBOOK.pdf`.
