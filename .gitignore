@@ -1,0 +1,40 @@
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor and IDE directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+
+# Build and temporary artifacts
+*.tmp
+*.temp
+*.log
+tmp/
+temp/
+
+# Environment and sensitive keys
+.env
+.env.local
+*.env
+*.pem
+*.key
+*.cert
+
+# Node / Python scratch (if scripts use them)
+node_modules/
+__pycache__/
+*.pyc
+
+# Final PDFs must be tracked when generated (do not ignore .pdf)
+!docs/**/*.pdf
+!BEH_MASTER_BACKEND_ENGINEERING_HANDBOOK.pdf
