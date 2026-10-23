@@ -121,7 +121,7 @@ Progress across tools, learning chunks, source materials, and final deliverables
 | 03 | **Maven** | I. Dev Foundations | 1 | 1 | Complete (Chunk 1 verified) | Complete (`BEH_MAVEN_COMPLETE_HANDBOOK.pdf`) |
 | 04 | **Postman** | I. Dev Foundations | 1 | 1 | Complete (Chunk 1 verified) | Complete (`BEH_POSTMAN_COMPLETE_HANDBOOK.pdf`) |
 | 05 | **JUnit 5** | I. Dev Foundations | 2 | 2 | Complete (Chunks 1 & 2 verified) | Complete (`BEH_JUNIT5_COMPLETE_HANDBOOK.pdf`) |
-| 06 | **Docker** | II. Infrastructure | 3 | 0 | Not started | Not generated |
+| 06 | **Docker** | II. Infrastructure | 3 | 3 | Complete (Chunks 1–3 verified) | Complete (`BEH_DOCKER_COMPLETE_HANDBOOK.pdf`) |
 | 07 | **Redis** | II. Infrastructure | 3 | 0 | Not started | Not generated |
 | 08 | **Kafka** | II. Infrastructure | 3 | 0 | Not started | Not generated |
 | 09 | **Nginx** | II. Infrastructure | 2 | 0 | Not started | Not generated |
